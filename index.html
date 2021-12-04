@@ -13,8 +13,22 @@
 <body>
     <div class="container">
         <div class="row vh-100">
-            <div class=".col-6 .col-sm-4 align-self-center mx-auto text-center">
-                <div id="teste">teste</div>
+            <div class="d-flex justify-content-center align-items-center">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Binários</label>
+                        <input type="number" class="form-control" id="numeroBinario" max="11111111" value="11101101"
+                            required>
+                        <div id="" class="form-text">Apenas 8 caracteres no maximo</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Trandução</label>
+                        <input type="text" class="form-control" id="textoTraduzido" disabled>
+                    </div>
+                    <div class="col-auto">
+                        <button id="traduzir" type="submit" class="btn btn-primary mb-3">Traduzir</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
